@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const alfabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').filter(letter => !verbodenLetters.includes(letter));
         return alfabet[Math.floor(Math.random() * alfabet.length)];
     }
+    
 
     function toonCategorie() {
         if (eersteKeer) {
