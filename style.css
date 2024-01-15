@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#spelContainer {
+    background-color: white;
+    width: 90%;
+    max-width: 500px; /* Max breedte voor grotere apparaten */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #666;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#categorie {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Responsive design voor kleinere schermen */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #spelContainer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    #categorie {
+        font-size: 18px;
+    }
+}
